@@ -1,0 +1,9 @@
+{
+  "name": "student-course-registration-system",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Multi-page Student Course Registration System",
+  "main": "backend/server.js",
+  "scripts": { "start": "node backend/server.js", "dev": "node --watch backend/server.js" },
+  "dependencies": { "cors": "^2.8.5", "dotenv": "^16.4.7", "express": "^4.21.2", "mysql2": "^3.12.0" }
+}
